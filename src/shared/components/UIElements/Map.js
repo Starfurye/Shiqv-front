@@ -5,7 +5,7 @@ import "./Map.css";
 
 const Map = (props) => {
     useEffect(() => {
-        let map = null;
+        let map;
         AMapLoader.load({
             key: process.env.REACT_APP_AMAP_JSAPI_KEY,
             version: "2.0",

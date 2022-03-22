@@ -17,7 +17,7 @@
 
 .user-item a:hover,
 .user-item a:active {
-    background: #ffd900;
+    background: #cfa030;
 }
 
 .card.user-item__content {
@@ -34,7 +34,7 @@
     font-size: 1.5rem;
     margin: 0 0 0.5rem 0;
     font-weight: normal;
-    color: #ffd900;
+    color: #cfa030;
 }
 
 .user-item:hover h2,
