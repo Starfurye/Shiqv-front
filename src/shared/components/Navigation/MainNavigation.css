@@ -19,11 +19,17 @@
 
 .main-navigation__title {
     color: white;
+    margin-right: 1rem;
 }
 
 .main-navigation__title a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
+}
+.main-navigation__logo-corner {
+    display: flex;
+    align-items: center;
 }
 
 .main-navigation__header-nav {

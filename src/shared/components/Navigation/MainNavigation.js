@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaBlog } from "react-icons/fa";
 
 import MainHeader from "./MainHeader";
 import NavLinks from "./NavLinks";
@@ -36,9 +37,17 @@ const MainNavigation = (props) => {
                     <span />
                     <span />
                 </button>
-                <h1 className="main-navigation__title">
-                    <Link to="/">拾趣</Link>
-                </h1>
+                <div className="main-navigation__logo-corner">
+                    <h1 className="main-navigation__title">
+                        <Link to="/">拾趣</Link>
+                    </h1>
+                    <Link
+                        to={{ pathname: "https://www.starfurye.com" }}
+                        target="_blank"
+                    >
+                        <FaBlog color="white" />
+                    </Link>
+                </div>
                 <nav className="main-navigation__header-nav">
                     <NavLinks />
                 </nav>

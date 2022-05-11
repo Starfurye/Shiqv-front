@@ -6,7 +6,6 @@
     background: #cf305f;
     color: white;
     cursor: pointer;
-    margin-right: 1rem;
     text-decoration: none;
     display: inline-block;
 }
@@ -17,8 +16,8 @@
 
 .button:hover,
 .button:active {
-    background: #305fcf;
-    border-color: #305fcf;
+    background: #fff;
+    color: #cf305f;
 }
 
 .button--inverse {

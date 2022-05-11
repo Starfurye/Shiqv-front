@@ -17,7 +17,7 @@
 
 .user-item a:hover,
 .user-item a:active {
-    background: #cfa030;
+    background: #fff;
 }
 
 .card.user-item__content {
@@ -41,7 +41,7 @@
 .user-item:active h2,
 .user-item:hover h3,
 .user-item:active h3 {
-    color: #292929;
+    color: var(--main-color);
 }
 
 .user-item__info h3 {
